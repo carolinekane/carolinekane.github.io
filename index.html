@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Caroline Kane</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -19,30 +20,37 @@
     <div class="container">
 
       <header>
-        <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
+        <div class="wrapper">
+  <h1>Caroline Kane</h1>
+    <p class="bio"> Hello! I am a sophomore in the Pamplin School of Business. My major is Marketing Management. This website contains some of my coursework from my Writing and Digital Media class.
+    </p>
+  <div class="buttonBox">
+    <a class="myButton" href="#projects">Go</a>
+  </div>
+</div>
       </header>
 
-      <main>
+      <main id="projects">
         <div class="recipe a">
-  <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-1.png" />
-  <h2>Facebook is Dying Due to it Being the Biggest Waste of Time</h2>
+  <img src="images/facebook-falling-logo.jpg" alt="Facebook logo falling over" />
+  <h2>The End of Facebook and the Rise of Something New</h2>
   <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
   <p class="mins">4 Minute Read</p>
-  <p class="description">Read to learn more about why Facebook is pointless nowadays. New, bigger, and better apps are on the rise while Facebook is on its downfall. Click <a href="https://medium.com/@mckane2002/the-end-of-facebook-and-the-rise-of-something-new-569977b697de" target="_blank">here</a>. Such an interesting read!</p>
+  <p class="description">Facebook has become mediocre and a big waste of time. Newer, bigger, and better apps are on the rise while Facebook is on its <a href="https://medium.com/@mckane2002/the-end-of-facebook-and-the-rise-of-something-new-569977b697de" target="_blank">downfall</a>. Such an interesting read!</p>
 </div>
 <div class="recipe b">
-<img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-1.png" />
+<img src="images/skateboarding-counterculture.jpg" alt="Guy doing a trick on a skateboard" />
 <h2>You Aren't Special: The Dissolution of Counterculture</h2>
 <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
 <p class="mins">16 Minute Listen</p>
-<p class="description">Click here to listen to my group's <a href="https://soundcloud.com/rigbone-sw/you-arent-special?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">podcast</a>. Learn about the dissemination of the alternative into the mainstream, and what you can do to make a difference.</p>
+<p class="description">An interesting podcast that goes into depth about <a href="https://soundcloud.com/rigbone-sw/you-arent-special?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">counterculture</a>. Learn about the dissemination of the alternative into the mainstream, and what you can do to make a difference.</p>
 </div>
         <div class="recipe c">
-          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-5.png" />
+          <img src="images/meal-prep.jpg" alt="Person getting together meals" />
           <h2>Video Project</h2>
           <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
           <p class="mins">10 Minute Watch</p>
- <p class="description">This is where I will have a description of my <a href="linktoyoursoundcloud.com">video</a>. I will continue my description here.</p>
+ <p class="description">Slammed with school work and extracurricular activities? Meal prepping is a great way live a healthy life while being constantly busy as a college <a href="linktoyoursoundcloud.com">student</a>. These three simple recipes will make your life so much easier!</p>
 </div>
         <div class="recipe d">
           <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-4.png" />
@@ -87,7 +95,10 @@
       </main>
 
       <footer>
-        <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
+        <div>
+    <p class="copyright">© Caroline Kane 2022</p>
+</div>
+
       </footer>
 
     </div>
